@@ -1,0 +1,18 @@
+Requirements
+
+- Should keep count of the number of clicks made so far in a particular game.
+- Should allow the player to specify the number of square lits for a new game. (using a slider, 1-25)
+- Allow player to start a new game.
+- three types of difficulty: easy, hard, random
+- Should have a Show Solution option
+- Should tell the player the optimal number of moves.
+- board should become disabled after victory. 
+- should provide some how to play text
+
+-----------------------------------------------------------
+
+The app will exist in one of two states: GameMode and EditMode. 
+
+GameMode means one is playing a game; that is, trying to turn off all the lights. 
+
+EditMode means one is setting up a game. Hence, clicking a square toggles only that square.
